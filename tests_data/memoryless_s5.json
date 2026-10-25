@@ -1,0 +1,9 @@
+{
+  "models": {
+    "m_const": { "0": "1/2", "1": "1/4", "2": "1/4" }
+  },
+  "switches": {
+    "sw_const": { "m_const": "1" }
+  },
+  "source": ["sw_const"]
+}
