@@ -192,7 +192,7 @@ def print_stats(path):
         print("Размер заголовка (байт):", hdr_empty_len)
         print("Размер сжатых данных (байт):", 0)
         print("Фактический коэффициент сжатия (байт/байт): не определен (файл пуст)")
-        retur
+        return
     freqs = Counter(data)
     codes = build_huffman_codes(freqs)
     H = -sum((c / orig_len) * math.log2(c / orig_len) for c in freqs.values())
